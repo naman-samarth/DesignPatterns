@@ -1,8 +1,12 @@
 # Abstract Factory Pattern
 
-This is another layer of abstraction over the Factory pattern.
+Lets you
+produce families of related objects without specifying their
+concrete classes.
 
-- AbstractFactory returns the Factory of classes, each of these factory will return one of the sub-classes.
-- This is basically Factory pattern applied over the Factory pattern implementation.
-
-Real life example is: Honda builds SportsCar & LuxuryCar for 2 locations: USA & India. Based on location, Cars specification varies for all 2 subclasses of car like steering wheel side. Here AbstractFactory comes to our rescue.
+### Applicability
+- when your code needs to work with
+  various families of related products, but you don’t want it to
+  depend on the concrete classes of those products—they might
+  be unknown beforehand, or you simply want to allow for future
+  extensibility.
