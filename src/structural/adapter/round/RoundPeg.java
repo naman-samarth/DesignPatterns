@@ -1,5 +1,8 @@
-package structural.adapter;
+package structural.adapter.round;
 
+/**
+ * RoundPegs are compatible with RoundHoles
+ */
 public class RoundPeg {
     private double radius;
 

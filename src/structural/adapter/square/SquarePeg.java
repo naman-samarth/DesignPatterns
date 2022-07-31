@@ -1,5 +1,9 @@
-package structural.adapter;
+package structural.adapter.square;
 
+/**
+ * SquarePegs are not compatible with RoundHoles. But we have to integrate them
+ * into our program.
+ */
 public class SquarePeg {
     private final double side;
 
