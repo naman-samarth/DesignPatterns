@@ -1,6 +1,7 @@
 # Bridge Pattern
-Used for decoupling abstraction from its implementation so that both can vary independently.
+Lets you split a large class or a set of closely related classes into two separate hierarchies—abstraction and implementation—which can be developed independently of each other.
 
-- Used when the system needs to be extended in several orthogonal dimensions.
-- Used when we wish to switch the implementation at run-time.
-- Used for applications requiring platform independence.
+### Applicability
+- when you want to divide and organize a monolithic class that has several variants of some functionality (for example, if the class can work with various database servers).
+- when you need to extend a class in several orthogonal (independent) dimensions.
+- if you need to be able to switch implementations at runtime.
