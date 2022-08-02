@@ -1,12 +1,10 @@
 # Builder Pattern
-This pattern helps in constructing complex objects in a step-by-step manner & the final step returns the object.
+Lets you construct
+complex objects step by step. The pattern allows you to produce different types and representations of an object using the same construction code.
 
-- Objects are having lot many attributes & having separate constructors for invoking these attributes for object creation is really cumbersome.
-- StringBuilder & StringBuffer in java uses Builder DP.
+### Applicability
 
-### Concepts
-
-- Builder class is a static nested class inside the main object class.
-- Builder class must have a public parameterized constructor with all mandatory data members.
-- Builder class should have setters for all optional data members & should return Builder object.
-- build() method is required which returns the final object to the runner.
+- to get rid of a “telescoping
+  constructor”.
+- when you want your code to be able to create different representations of some product (for example, stone and wooden houses).
+- to construct Composite trees or other complex objects.
